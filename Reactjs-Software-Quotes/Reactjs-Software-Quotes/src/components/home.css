@@ -1,0 +1,60 @@
+.Quotes{
+    margin: 20px 20px;
+    border-collapse: separate;  
+    border-spacing: 0 15px;  
+}
+
+.heading{
+    color: lime;
+    background-color:transparent;
+    text-align: center;
+    box-shadow: none;
+}
+ .Quote-box{
+    border: 4px solid red;
+    border-radius:  1rem;
+    color:lime;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: black;
+}
+.Subox {
+    display: flex;
+    flex-direction: row;
+    color:white;
+    border-radius: 1rem; 
+    /* font-size: small; */
+    /* font-style: italic; */
+    background-color: black;
+    align-content: center;
+    justify-content: center;
+    
+
+    height: 30px;
+    
+
+}
+
+.likes{
+    background-color: white;
+    flex: 0.015;
+    color:black;
+    border-radius: 1rem;
+    float: right;
+    font-size: small;
+    align-self: center;
+    border: 2px solid red;
+    margin-top: 16px;
+    margin-right: 1px;
+    text-align: center;
+    padding: 3px 
+}
+.Author-name{
+    
+    flex: 1;
+    float: left;
+    position:relative;
+    align-self: center;
+    padding-top: 10px;
+    
+}
